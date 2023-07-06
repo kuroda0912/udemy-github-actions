@@ -5,7 +5,7 @@ import morgan from 'morgan'
 import { sum } from './sum'
 
 const PORT = process.env.PORT ?? 8080
-// フロントエンドの URL を 'http://frontend.example.com' のように指定してください。
+//  フロントエンドの URL を 'http://frontend.example.com' のように指定してください。
 const CORS_ORIGIN = undefined
 
 const app = express()

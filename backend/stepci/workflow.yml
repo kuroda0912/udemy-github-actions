@@ -10,11 +10,11 @@ tests:
           url: ${{env.baseUrl}}/api/sum
           method: GET
           params:
-            input1: 1
+            input1: 2
             input2: 2
           check:
             status: 200
             jsonpath:
-              $.sum: 3
+              $.sum: 4
             
             

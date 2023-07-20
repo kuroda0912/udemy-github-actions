@@ -1,5 +1,5 @@
 // API の URL を 'http://203.0.113.10' のように指定してください。
-const API_URL_PREFIX = 'http://13.231.230.69'
+const API_URL_PREFIX = 'http://52.195.175.246'
 
 const input1Element = document.getElementById('input1')
 const input2Element = document.getElementById('input2')
